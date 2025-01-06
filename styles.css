@@ -1,0 +1,43 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  background-color: #fff;
+  color: black;
+  font-weight: normal;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#logo {
+  font-weight: normal;
+}
+
+#container {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  gap: 1rem;
+}
+
+#tm {
+  font-size: 50%;
+  vertical-align: super;
+}
+
+.klipp {
+  color: rgb(255, 0, 0);
+}
+
+#info {
+  font-weight: 300;
+}
